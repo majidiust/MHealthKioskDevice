@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="97b74baa-f021-4add-8dac-17da80e35c84" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://5.200.78.10:8080/MHealthKioskService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MHealthKioskService2.xsd" MetadataType="Schema" ID="0ce027a1-de93-41a5-8aa3-558a3b51229f" SourceId="1" SourceUrl="http://5.200.78.10:8080/MHealthKioskService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MHealthKioskService1.wsdl" MetadataType="Wsdl" ID="7d74c160-68dd-4933-9df0-1ee32d8e7bcc" SourceId="1" SourceUrl="http://5.200.78.10:8080/MHealthKioskService.svc?wsdl" />
+    <MetadataFile FileName="MHealthKioskService1.disco" MetadataType="Disco" ID="7b169581-6da3-445c-9fbf-641c563fd0f2" SourceId="1" SourceUrl="http://5.200.78.10:8080/MHealthKioskService.svc?disco" />
+    <MetadataFile FileName="MHealthKioskService21.xsd" MetadataType="Schema" ID="84b06ba7-6243-4f48-b85e-24564438af5f" SourceId="1" SourceUrl="http://5.200.78.10:8080/MHealthKioskService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

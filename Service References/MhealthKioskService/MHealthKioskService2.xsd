@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AddVisit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeviceInfo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NationalID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Systolic" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Diastolic" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SPO2Percentage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SPO2PulseRate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddVisitResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddVisitResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
